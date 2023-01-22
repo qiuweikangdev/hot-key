@@ -14,9 +14,7 @@
   <!a::send ^a
 
 ; 快速移动位置
-; 使用方式 ctrl+i  ctrl+k ctrl+j ctrl+l
-  ^i::send ^{Up}
-  ^k::send ^{Down}
+; 使用方式 ctrl+j ctrl+l
   ^j::send ^{Left}
   ^l::send ^{Right}
 
