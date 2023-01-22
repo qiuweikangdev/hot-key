@@ -1,10 +1,10 @@
 ﻿; 符号说明
-; ! 表示 alt, + 表示shift
+; ! 表示 alt, + 表示shift , ^ 表示 ctrl
 
 
 ; 快捷键修改 
 
-; 键盘键位替换,如 上下左右 删除 全选
+; 光标快速移动,如 上下左右 删除 全选
 ; 使用方式 alt+i  alt+k alt+j alt+l
 <!i::send {Up}
 <!k::send {Down}
@@ -12,6 +12,14 @@
 <!l::send {Right}
 <!d::send {Backspace}
 <!a::send ^a
+
+;快速移动位置
+; 使用方式 ctrl+i  ctrl+k ctrl+j ctrl+l
+^i::send ^{Up}
+^k::send ^{Down}
+^j::send ^{Left}
+^l::send ^{Right}
+
 
 ; 快速选择 
 ; 使用方式 alt+shift+i  alt+shift+k alt+shift+j alt+shift+l
