@@ -9,7 +9,6 @@
 * `alt+k` 触发 向下键
 * `alt+l `触发 向右键
 
-
 ## 快速选择文本
 
 * `alt+shift+i `触发 向上选中文本
@@ -17,14 +16,16 @@
 * `alt+shift+k` 触发 向下选中文本
 * `alt+shift+l `触发 向右选中文本
 
-
 ## 快速移动位置
 
 * `ctrl+j `触发  ctrl+向左键
 * `ctrl+l` 触发  ctrl+向右键
 
-
 ## 移动上下位置
 
 * `ctrl+shift+i `触发   alt+向上键
 * `ctrl+shift+k `触发   alt+向下键
+
+## 鼠标滚轮移动
+
+- `Alt + RF `滚轮上下滑动

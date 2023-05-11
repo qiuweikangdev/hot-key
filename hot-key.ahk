@@ -31,3 +31,10 @@
   +!k::send +{down}
   +!;::send +{end}
   +!h::send +{home}
+
+; 鼠标滚轮移动
+; Alt + RF 滚轮上下滑动
+  <!R::send {WheelUp} 
+  <!F::send {WheelDown} 
+
+  
