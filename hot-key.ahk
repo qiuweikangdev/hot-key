@@ -1,6 +1,8 @@
 ﻿; 符号说明
 ; ! 表示 alt, + 表示shift , ^ 表示 ctrl
 
+;设置按键延迟时间为0，按键重复速度为0
+SetKeyDelay, 0, 0  ; 
 
 ; 快捷键修改 
 
@@ -37,4 +39,15 @@
   <!R::send {WheelUp} 
   <!F::send {WheelDown} 
 
-  
+
+  		
+; 按住alt+b打开谷歌浏览器
+!b::
+    Run "C:\Program Files\Google\Chrome\Application\chrome.exe"
+    return
+
+		
+; 按住alt+t打开Windows终端
+!t::
+    Run "wt.exe"
+    return
